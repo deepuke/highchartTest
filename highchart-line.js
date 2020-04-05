@@ -20,7 +20,9 @@ Highcharts.chart('container-highchart', {
         enabled: false
     },
     chart: {
-        zoomType: 'xy'
+        zoomType: 'xy',
+        styledMode: true,
+        type: 'line'
     },
 
     title: {
@@ -40,7 +42,7 @@ Highcharts.chart('container-highchart', {
             format: '{value} %'
         },
         minorGridLineColor: '#E0E0E0',
-        minorGridLineWidth: 1,
+        minorGridLineWidth: 0.5,
         minorTickLength: 0,
         minorTickInterval: 'auto'
     },
@@ -62,18 +64,11 @@ Highcharts.chart('container-highchart', {
                 return  this.value;
             }
         },
-        //tickPositions: [0, 30, 90, 180, 360],
+      tickPositions: [0, 30, 90, 180, 360],
         minorGridLineColor: '#E0E0E0',
         minorGridLineWidth: 0.5,
         minorTickLength: 0,
-        minorTickInterval: 'auto',
-        units: [[
-            'month',
-            [3, 6]
-        ], [
-            'year',
-            [1, 2, 5, 10, 20, 30, 50]
-        ]]
+        minorTickInterval: 'auto'        
     },
 
     tooltip: {

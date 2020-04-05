@@ -1,0 +1,23 @@
+{
+  "name": "HighchartTest",
+  "version": "1.0.0",
+  "description": "Testing highcharts features",
+  "main": "highchart-line.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepuke/highchartTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepuke/highchartTest/issues"
+  },
+  "homepage": "https://github.com/deepuke/highchartTest#readme",
+  "dependencies": {
+    "highcharts": "^8.0.4"
+  }
+}
