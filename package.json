@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/deepuke/highchartTest#readme",
   "dependencies": {
-    "highcharts": "^8.0.4"
+    "highcharts": "^9.0.0"
   }
 }
